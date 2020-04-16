@@ -13,7 +13,7 @@ class TestAop {
 	void test() {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext("aop.xml");
 		UserService us=(UserService) ctx.getBean("userService");
-		User user=new User(1,"123",15);
+		User user=new User(5,"0416",32);
 		us.saveUser(user);
 	}
 

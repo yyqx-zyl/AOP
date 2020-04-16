@@ -11,7 +11,7 @@ public class UserDaoImpl implements UserDao {
 	public void saveUser(User user) {
 		List<User> list=new ArrayList<User>();
 		list.add(user);
-		System.out.println("增加用户信息成功！！！");
+		System.out.println("0416龙哥！！！");
 	}
 
 }
